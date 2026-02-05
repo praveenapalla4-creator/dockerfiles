@@ -3,7 +3,7 @@ ARG VERSION
 #vachi edit cheyyali push chesi pull cheyyali. so ala chyyakunda VERSION var istham if vers valu ivvakapothe default 9 teesukuntundhi
 FROM almalinux:${VERSION:-9} 
 ARG COURSE="DOCKER"\
-    TRAINER="SIVAKUMAR"\
+    TRAINER="SIVAKUMAR"
 #build time lo pampe argument ni contaniner lo acess chesukovataniki ENV use chesam
 # ENV COURSE={COURSE} 
 RUN echo "Trainer: ${TRAINER}, Course: ${COURSE}, Version: ${VERSION}"
